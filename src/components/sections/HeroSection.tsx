@@ -52,7 +52,7 @@ const HeroSection = ({ onScrollDown }: HeroSectionProps) => {
           className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-6 leading-tight"
         >
           <span className="text-foreground">I'm </span>
-          <span className="gradient-text-animated">John Doe</span>
+          <span className="gradient-text-animated">Aafrin N</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -60,17 +60,18 @@ const HeroSection = ({ onScrollDown }: HeroSectionProps) => {
           variants={itemVariants}
           className="text-xl md:text-2xl lg:text-3xl font-body text-muted-foreground mb-8"
         >
-          <span className="text-primary">Full Stack Developer</span> & 
-          <span className="text-secondary"> UI/UX Designer</span>
+          <span className="text-primary">AI Engineer</span> & 
+          <span className="text-secondary"> Web Developer</span>
+          
         </motion.p>
+
 
         {/* Description */}
         <motion.p
           variants={itemVariants}
           className="text-lg md:text-xl font-body text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          Crafting immersive digital experiences with cutting-edge technologies.
-          Passionate about clean code, beautiful interfaces, and innovative solutions.
+         Building intelligent, scalable solutions with strong engineering fundamentals and a growing focus on Artificial Intelligence.
         </motion.p>
 
         {/* Achievement badges */}
@@ -79,9 +80,9 @@ const HeroSection = ({ onScrollDown }: HeroSectionProps) => {
           className="flex flex-wrap justify-center gap-4 mb-12"
         >
           {[
-            { icon: Code2, label: "500+ Commits", color: "text-primary" },
-            { icon: Rocket, label: "50+ Projects", color: "text-secondary" },
-            { icon: Award, label: "10+ Awards", color: "text-accent" },
+            { icon: Code2, label: "AI + DEV", color: "text-primary" },
+            { icon: Rocket, label: "2+ Projects", color: "text-secondary" },
+            { icon: Award, label: "10+ Certifications", color: "text-accent" },
           ].map((item) => (
             <motion.div
               key={item.label}

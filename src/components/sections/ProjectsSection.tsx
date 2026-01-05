@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with real-time inventory, payment processing, and admin dashboard.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+    title: "AI Full Auto reply chatbot",
+    description: "An AI-powered chatbot designed to automatically generate responses and enhance user interaction.",
+    tags: ["Python", "Node.js", "MongoDB", "Stripe"],
     github: "#",
     live: "#",
     featured: true,

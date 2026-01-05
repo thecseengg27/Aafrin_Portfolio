@@ -25,17 +25,17 @@ const itemVariants: Variants = {
 
 const AboutSection = () => {
   const stats = [
-    { value: "5+", label: "Years Experience" },
-    { value: "100+", label: "Projects Completed" },
-    { value: "50+", label: "Happy Clients" },
-    { value: "10+", label: "Tech Stack" },
+    { value: "4+", label: "Internship Experience" },
+    { value: "5+", label: "Projects Completed" },
+    { value: "700+", label: "Linkedin Connections" },
+    { value: "20+", label: "Tech Stack" },
   ];
 
   const info = [
-    { icon: MapPin, label: "San Francisco, CA" },
+    { icon: MapPin, label: "Chennai, India" },
     { icon: Calendar, label: "Available for hire" },
-    { icon: Briefcase, label: "Senior Developer" },
-    { icon: GraduationCap, label: "CS Graduate" },
+    { icon: Briefcase, label: "AI Engineer + Dev" },
+    { icon: GraduationCap, label: "CS UnderGrad" },
   ];
 
   return (
@@ -53,7 +53,7 @@ const AboutSection = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-            A passionate developer dedicated to creating exceptional digital experiences
+           I’m a Computer Science and Engineering student focused on building strong foundations and growing into an AI Engineer.
           </p>
         </motion.div>
 
@@ -96,14 +96,12 @@ const AboutSection = () => {
                 Building the Future, <span className="text-primary">One Line at a Time</span>
               </h3>
               <p className="text-muted-foreground font-body leading-relaxed">
-                I'm a full-stack developer with a passion for creating beautiful, functional,
-                and user-centered digital experiences. With 5+ years of experience in the field,
-                I've worked with startups and enterprises to bring their visions to life.
+               I’m a Computer Science and Engineering student with a strong academic background and a growing passion for building reliable and impactful software solutions. I enjoy transforming ideas into clean, functional, and user-friendly digital experiences through thoughtful design and well-structured code.
+
+My interests currently lie in Artificial Intelligence, machine learning, and modern software development. Alongside my academic journey, I’ve gained hands-on experience in web development and continue to strengthen my programming fundamentals while exploring how intelligent systems can solve real-world problems.
               </p>
               <p className="text-muted-foreground font-body leading-relaxed">
-                My expertise spans across modern web technologies including React, Node.js,
-                TypeScript, and cloud platforms. I believe in writing clean, maintainable code
-                and staying updated with the latest industry trends.
+               I believe in continuous learning, writing clean and maintainable code, and staying curious about emerging technologies as I work toward becoming an AI Engineer.
               </p>
             </motion.div>
 
